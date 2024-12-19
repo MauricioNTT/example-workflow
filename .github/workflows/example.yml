@@ -11,3 +11,5 @@ jobs:
 
     steps:
       - uses: MauricioNTT/example-action@main
+        with:
+          message: Hello Inputs
