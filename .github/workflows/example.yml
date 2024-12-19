@@ -15,3 +15,7 @@ jobs:
       - uses: MauricioNTT/example-action@main
         with:
           message: Hello Inputs
+        env: 
+          message: Hello env 1
+
+
