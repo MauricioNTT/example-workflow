@@ -15,5 +15,3 @@ jobs:
       - uses: MauricioNTT/example-action@main
         with:
           message: Hello Inputs
-        env:
-          message: ${{vars.MESSAGE}}
