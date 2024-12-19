@@ -16,4 +16,4 @@ jobs:
         with:
           message: Hello Inputs
         env:
-          message: "Hello env step"
+          ${{vars.message}}
