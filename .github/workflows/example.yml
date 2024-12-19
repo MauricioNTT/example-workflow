@@ -9,11 +9,11 @@ on:
 
 jobs:
   hello:
-    env:
-      message: "Hello env"
     runs-on: ubuntu-latest
 
     steps:
       - uses: MauricioNTT/example-action@main
         with:
           message: Hello Inputs
+        env:
+          message: "Hello env step"
