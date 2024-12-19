@@ -5,11 +5,12 @@ on:
     branches:
       [ main ]
 
-env:
-  message: "Hello env"
+
 
 jobs:
   hello:
+    env:
+      message: "Hello env"
     runs-on: ubuntu-latest
 
     steps:
