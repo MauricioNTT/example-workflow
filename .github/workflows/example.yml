@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "Hello folks!"
+      - uses: MauricioNTT/example-action@main
